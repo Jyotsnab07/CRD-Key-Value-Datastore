@@ -1,13 +1,13 @@
 # CRD-Key-Value-Datastore
-Data is stored in form of key-value pair [ student - marks ] in .json file.
-This data is accessed through python and converted to dictionary format , perform required actions and write back to .json file
-source.py contains the code for read,create,delete and modify
-access.py allows user to perform the required operations 
-import required : 
-import time
-import json
-import source as x
-import threading
+Data is stored in form of key-value pair [ student - marks ] in .json file.<br/>
+This data is accessed through python and converted to dictionary format , perform required actions and write back to .json file<br/>
+source.py contains the code for read,create,delete and modify<br/>
+access.py allows user to perform the required operations <br/>
+import required : <br/>
+import time<br/>
+import json<br/>
+import source as x<br/>
+import threading<br/>
 
 
 Question:
