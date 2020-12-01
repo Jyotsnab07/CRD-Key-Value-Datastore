@@ -41,16 +41,16 @@ The data store must therefore be thread-safe.
 4. The client will bear as little memory costs as possible to use this data store, while
 deriving maximum performance with respect to response times for accessing the data
 store.
-Languages:
+Languages:<br/>
 Ideally, we would not restrict you from working on a language of your choice. However, it
-would be preferable if you stick with one of these -
-• NodeJS
-• Java
-• Python
-• GoLang
-• Ruby
+would be preferable if you stick with one of these -<br/>
+• NodeJS<br/>
+• Java<br/>
+• Python<br/>
+• GoLang<br/>
+• Ruby<br/>
 • C/C++
-Submission:
+Submission:<br/>
 Submit a link to the source code, ideally committed to Github.
 Code accompanied by thorough unit tests is typically a mark of quality work.
 Ideally, your data store will work on most operating systems. If this is not the case, please
