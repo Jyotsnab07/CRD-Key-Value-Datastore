@@ -2,6 +2,12 @@
 Data is stored in form of key-value pair [ student - marks ] in .json file.<br/>
 This data is accessed through python and converted to dictionary format , perform required actions and write back to .json file<br/>
 source.py contains the code for read,create,delete and modify<br/>
+display() function is used to write the updated date to the .json file<br/>
+Time-to-live property has been included . User can enter timeout value during creation after which read/delete/modify operations are not possible<br/>
+read() - For a given key if time-to-live has not expired and is available in datastore appropriate value is returned else error displayed<br/>
+create() - If the key is not duplicate,memory limit not exceeded and is in string format , new key value pair created  else error displayed<br/>
+delete() -  For a given key if time-to-live has not expired and is available in datastore respective key-value pair is deleted else error displayed<br/>
+modify() - For a given key if time-to-live has not expired and is available in datastore , value can be modified for the respective key  else error displayed<br/>
 access.py allows user to perform the required operations <br/>
 import required : <br/>
 import time<br/>
